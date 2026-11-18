@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>try{var t=localStorage.getItem("theme");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}</script>
+<title>Brajraj Singh Songara — Website Designer</title>
+<meta name="description" content="I design and build clean, modern, high-converting websites, from first sketch to the live site. Brajraj Singh Songara, website designer.">
+<meta name="theme-color" id="tc" content="#ffffff">
+<link rel="canonical" href="https://thevoidmoon11-svg.github.io/-thevoidmoon-.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Brajraj Singh Songara — Website Designer">
+<meta property="og:description" content="Designing websites people remember. Clean, modern, high-converting sites, designed and built end to end.">
+<meta property="og:url" content="https://thevoidmoon11-svg.github.io/-thevoidmoon-.github.io/">
+<meta property="og:image" content="https://thevoidmoon11-svg.github.io/-thevoidmoon-.github.io/hero-poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+<style>
+:root{
+  color-scheme:light;
+  --bg:#fff; --alt:#f5f5f7; --ink:#1d1d1f; --muted:#6e6e73; --line:#d2d2d7; --sub:#424245; --on-ink:#fff;
+  --nav:rgba(255,255,255,.8); --nav-solid:rgba(255,255,255,.97); --nav-line:rgba(0,0,0,.08);
+  --pbox:#1d1d1f; --pbox-line:transparent;
+  --blue:#0071e3; --blue-h:#0077ed; --dark:#000;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+html[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#000; --alt:#141416; --ink:#f5f5f7; --muted:#a1a1a6; --line:#3a3a3c; --sub:#c7c7cc; --on-ink:#1d1d1f;
+  --nav:rgba(0,0,0,.72); --nav-solid:rgba(0,0,0,.96); --nav-line:rgba(255,255,255,.1);
+  --pbox:#1c1c1e; --pbox-line:#2c2c2e;
+  --blue:#2997ff; --blue-h:#40a9ff; --dark:#111113;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:60px}
+body{background:var(--bg);color:var(--ink);transition:background-color .3s,color .3s;font-family:var(--font);-webkit-font-smoothing:antialiased;line-height:1.47;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.skip{position:fixed;top:-60px;left:16px;z-index:300;background:var(--ink);color:var(--on-ink);padding:10px 16px;border-radius:12px;text-decoration:none;font-size:14px;transition:top .2s}
+.skip:focus{top:12px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* nav */
+nav{position:sticky;top:0;z-index:100;height:52px;background:var(--nav);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--nav-line)}
+nav .wrap{height:100%;display:flex;align-items:center;justify-content:space-between}
+.lr{fill:var(--ink)}.ls{stroke:var(--on-ink)}
+.logo{display:inline-flex;align-items:center;gap:9px;font-weight:600;font-size:17px;letter-spacing:-.01em;text-decoration:none}
+.links{display:flex;gap:32px;list-style:none}
+.links a{font-size:13px;color:var(--sub);text-decoration:none;transition:color .2s}
+.links a:hover{color:var(--ink)}
+.nav-r{display:flex;align-items:center;gap:12px}
+.pill-s{font-size:12px;font-weight:500;background:var(--blue);color:#fff;text-decoration:none;padding:6px 14px;border-radius:980px;transition:background .2s}
+.pill-s:hover{background:var(--blue-h)}
+.theme{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--ink);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s}
+.theme:hover{background:var(--alt)}
+.theme .sun{display:none}
+html[data-theme="dark"] .theme .sun{display:block}
+html[data-theme="dark"] .theme .moon{display:none}
+.burger{display:none;width:34px;height:34px;border:0;background:none;cursor:pointer;color:var(--ink);align-items:center;justify-content:center}
+.burger i{display:block;width:18px;height:10px;border-top:1.5px solid currentColor;border-bottom:1.5px solid currentColor}
+
+/* type */
+.eyebrow{font-size:14px;font-weight:600;color:var(--muted);letter-spacing:.01em;margin-bottom:12px;display:block}
+h1{font-size:clamp(2.6rem,7vw,5.2rem);font-weight:700;letter-spacing:-.035em;line-height:1.04}
+h2{font-size:clamp(2rem,4.6vw,3.5rem);font-weight:700;letter-spacing:-.03em;line-height:1.08}
+h3{font-size:1.4rem;font-weight:600;letter-spacing:-.015em;line-height:1.2}
+.lead{font-size:clamp(1.1rem,2vw,1.4rem);color:var(--muted);line-height:1.5;letter-spacing:-.01em}
+section{padding:120px 0}
+.alt{background:var(--alt)}
+.center{text-align:center}
+.center .lead{max-width:640px;margin:20px auto 0}
+
+/* buttons */
+.btn{display:inline-block;font-size:17px;font-weight:400;text-decoration:none;padding:12px 24px;border-radius:980px;background:var(--blue);color:#fff;border:0;cursor:pointer;font-family:inherit;transition:background .2s,transform .2s var(--ease)}
+.btn:hover{background:var(--blue-h);transform:scale(1.02)}
+.link{font-size:17px;color:var(--blue);text-decoration:none}
+.link:hover{text-decoration:underline}
+.actions{display:flex;gap:28px;align-items:center;justify-content:center;flex-wrap:wrap;margin-top:32px}
+
+/* hero */
+.hero{padding:88px 0 0;text-align:center}
+.badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);background:var(--alt);padding:7px 16px;border-radius:980px;margin-bottom:28px}
+.badge i{width:7px;height:7px;border-radius:50%;background:#30d158;animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.35}}
+.hero h1{max-width:900px;margin:0 auto}
+.hero .lead{max-width:600px;margin:24px auto 0}
+.frame{margin:72px auto 0;max-width:1000px;aspect-ratio:16/9;border-radius:28px 28px 0 0;overflow:hidden;background:#0b0b0f;box-shadow:0 30px 80px rgba(0,0,0,.18)}
+.frame canvas{width:100%;height:100%;display:block;cursor:pointer}
+
+/* about / stats */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:64px}
+.stat{background:var(--bg);border-radius:28px;padding:40px 32px}
+.stat b{display:block;font-size:3rem;font-weight:700;letter-spacing:-.03em;line-height:1}
+.stat span{display:block;margin-top:12px;color:var(--muted);font-size:15px}
+.about-p{max-width:760px;margin:28px auto 0;color:var(--muted);font-size:1.15rem;line-height:1.6}
+.about-p strong{color:var(--ink);font-weight:600}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:64px}
+.card{background:var(--alt);border-radius:28px;padding:44px 40px;display:flex;flex-direction:column;gap:14px;transition:transform .5s var(--ease),box-shadow .5s var(--ease)}
+.card:hover{transform:translateY(-4px);box-shadow:0 20px 50px rgba(0,0,0,.08)}
+.ico{width:48px;height:48px;border-radius:14px;background:var(--ink);color:var(--on-ink);display:flex;align-items:center;justify-content:center;font-size:1.25rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:1.02rem}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:10px}
+.tag{font-size:12px;color:var(--sub);background:var(--bg);border:1px solid var(--line);padding:5px 12px;border-radius:980px}
+
+/* tools (dark) */
+.dark{background:var(--dark);color:#f5f5f7}
+.dark .eyebrow,.dark .lead{color:#86868b}
+.cw{position:relative;max-width:440px;margin:64px auto 0}
+.car{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;border-radius:28px;scrollbar-width:none;background:#1d1d1f}
+.car::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:center;aspect-ratio:4/5}
+.slide{display:flex;align-items:center;background:#0b0b0f}
+.slide img{width:100%;height:100%;object-fit:contain;display:block}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.14);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2;transition:background .2s}
+.arrow:hover{background:rgba(255,255,255,.26)}
+.arrow.p{left:-64px}.arrow.n{right:-64px}
+.credit{margin-top:22px;font-size:14px;color:#86868b}
+.credit .link{font-size:14px}
+.count{text-align:center;margin-top:24px;color:#86868b;font-size:14px}
+.dots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.dot{width:7px;height:7px;border-radius:50%;border:0;padding:0;background:#424245;cursor:pointer;transition:background .3s,transform .3s}
+.dot.on{background:#fff;transform:scale(1.25)}
+
+/* prompts */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:56px}
+.step{background:var(--alt);border-radius:24px;padding:28px 24px}
+.step em{font-style:normal;display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--ink);color:var(--on-ink);align-items:center;justify-content:center;font-weight:600;font-size:14px;margin-bottom:16px}
+.step h4{font-size:1.05rem;font-weight:600;letter-spacing:-.01em;margin-bottom:10px}
+.step p{font-size:14px;color:var(--muted);margin-top:8px}
+.step b{color:var(--ink);font-weight:600}
+.pbox{background:var(--pbox);border:1px solid var(--pbox-line);color:#f5f5f7;border-radius:28px;padding:40px;margin-top:20px}
+.pbox .eyebrow{color:#86868b;font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+.ptext{white-space:pre-wrap;font-size:15px;line-height:1.8;color:#e8e8ed}
+.pbox .btn{margin-top:28px}
+.rule{margin-top:28px;color:var(--muted);font-size:15px;padding-left:20px;border-left:2px solid var(--ink)}
+.rule b{color:var(--ink)}
+
+/* skills */
+.skillcard{background:var(--bg);border-radius:28px;padding:44px 40px;max-width:760px;margin:56px auto 0;text-align:left;display:flex;flex-direction:column;gap:14px}
+.skillcard p{color:var(--muted);font-size:1.02rem}
+.skillcard ul{list-style:none;display:grid;gap:10px;margin:6px 0}
+.skillcard li{color:var(--sub);font-size:1rem;padding-left:26px;position:relative}
+.skillcard li::before{content:"✓";position:absolute;left:0;color:#30d158;font-weight:700}
+.skillcard .row{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.skillcard small{display:block;color:var(--muted);font-size:13px}
+
+/* contact + footer */
+.mail{font-size:clamp(1.3rem,3vw,2rem);font-weight:600;letter-spacing:-.02em;color:var(--blue);text-decoration:none;display:inline-block;margin-top:36px}
+.mail:hover{text-decoration:underline}
+.soc{margin-top:28px;font-size:15px}
+footer{background:var(--alt);border-top:1px solid var(--line);padding:22px 0;font-size:12px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.flogo{display:inline-flex;align-items:center;gap:8px}
+footer a{text-decoration:none}footer a:hover{text-decoration:underline}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:1100px){.arrow.p{left:8px}.arrow.n{right:8px}}
+@media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:860px){
+  .burger{display:flex}
+  .links{display:none;position:absolute;top:52px;left:0;right:0;flex-direction:column;gap:0;background:var(--nav-solid);padding:8px 24px 16px;border-bottom:1px solid var(--line)}
+  nav.open .links{display:flex}
+  .links a{display:block;padding:14px 0;font-size:17px;border-bottom:1px solid var(--alt)}
+}
+@media(max-width:700px){
+  section{padding:80px 0}
+  .skillcard{padding:32px 26px}
+  .stats,.grid,.steps{grid-template-columns:1fr}
+  .card{padding:32px 28px}.pbox{padding:28px 24px}
+  .frame{border-radius:20px 20px 0 0;margin-top:48px}
+  .arrow{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Sitecraft home"><svg width="26" height="26" viewBox="0 0 64 64" aria-hidden="true"><rect class="lr" width="64" height="64" rx="16"/><path class="ls" d="M43 20H25V32H39V44H21" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21" cy="44" r="4.5" fill="#0a84ff"/></svg>Sitecraft</a>
+    <ul class="links" id="links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#prompts">Prompts</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-r">
+      <button class="theme" id="theme" type="button" aria-label="Switch to dark mode">
+        <svg class="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <a class="pill-s" href="#contact">Say hello</a>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="links"><i></i></button>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="badge"><i></i>Available for new projects</div>
+    <h1>Designing websites people remember.</h1>
+    <p class="lead">I design and build clean, modern, high-converting websites — from first sketch to the live site your visitors scroll through.</p>
+    <div class="actions">
+      <a class="btn" href="mailto:the.voidmoon11@gmail.com">Start a project</a>
+      <a class="link" href="#work">View my work ›</a>
+    </div>
+    <div class="frame"><canvas id="px" role="img" aria-label="Hypnotic animation: a pocket watch swings over a slowly rotating spiral"></canvas></div>
+  </div>
+</section>
+
+<section class="alt" id="about">
+  <div class="wrap center">
+    <span class="eyebrow reveal">About</span>
+    <h2 class="reveal">A designer who builds, not just draws.</h2>
+    <p class="about-p reveal">I'm a website designer focused on turning ideas into interfaces that feel effortless to use. Every project starts with one question: <strong>what does this person need to feel in the first three seconds?</strong> Layout, type, motion and color are chosen on purpose, never by default — so the site looks premium, loads fast, and gets the click, the message, or the sale.</p>
+    <div class="stats">
+      <div class="stat reveal"><b>100%</b><span>Custom-designed, no templates</span></div>
+      <div class="stat reveal"><b>Fast</b><span>Built for speed &amp; smooth scroll</span></div>
+      <div class="stat reveal"><b>1:1</b><span>Direct collaboration, no middlemen</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow reveal">What I do</span>
+      <h2 class="reveal">Website design, end to end.</h2>
+      <p class="lead reveal">From the first wireframe to a live site your visitors actually enjoy scrolling through.</p>
+    </div>
+    <div class="grid">
+      <div class="card reveal"><div class="ico" aria-hidden="true">✦</div><h3>Web Design</h3><p>Custom layouts, type systems, and color direction built around your brand — not a recycled template.</p><div class="tags"><span class="tag">UI Design</span><span class="tag">Branding</span></div></div>
+      <div class="card reveal"><div class="ico" aria-hidden="true">◈</div><h3>Front-End Build</h3><p>Pixel-accurate, responsive builds that hold up on any screen — from a wide monitor to a small phone.</p><div class="tags"><span class="tag">HTML/CSS</span><span class="tag">Responsive</span></div></div>
+      <div class="card reveal"><div class="ico" aria-hidden="true">◎</div><h3>Motion &amp; Interaction</h3><p>Scroll reveals, hover states, and small animated details that make a site feel considered, not static.</p><div class="tags"><span class="tag">Animation</span><span class="tag">Micro-interactions</span></div></div>
+      <div class="card reveal"><div class="ico" aria-hidden="true">◐</div><h3>Glass &amp; Modern UI</h3><p>Premium, translucent interface elements — the soft-glass look popularized by modern app design.</p><div class="tags"><span class="tag">Glassmorphism</span><span class="tag">Design Systems</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="tools">
+  <div class="wrap center">
+    <span class="eyebrow reveal">Free alternatives</span>
+    <h2 class="reveal">Free alternatives to paid creative apps.</h2>
+    <p class="lead reveal">Swipe through this overview from ArtCraft. Many of their apps are still in development or early alpha, so check their site for the current status.</p>
+    <div class="cw reveal">
+      <button class="arrow p" type="button" onclick="mv(-1)" aria-label="Previous slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+      <div class="car" id="car" role="region" aria-roledescription="carousel" aria-label="Free design tools">
+        <div class="slide"><img src="slide1.jpg" width="964" height="1208" decoding="async" alt="Free vs Paid: ArtCraft free apps compared with Adobe apps"></div>
+        <div class="slide"><img src="slide2.jpg" width="1072" height="1124" loading="lazy" decoding="async" alt="01 Audio: SoundCraft vs Audition"></div>
+        <div class="slide"><img src="slide3.jpg" width="1076" height="1132" loading="lazy" decoding="async" alt="02 UI design: FigCraft vs Figma Pro"></div>
+        <div class="slide"><img src="slide4.jpg" width="1072" height="1128" loading="lazy" decoding="async" alt="03 3D texturing: TextureCraft and MaterialCraft vs Substance 3D"></div>
+        <div class="slide"><img src="slide5.jpg" width="1076" height="1136" loading="lazy" decoding="async" alt="04 CAD: CADCraft vs AutoCAD LT"></div>
+        <div class="slide"><img src="slide6.jpg" width="1076" height="1116" loading="lazy" decoding="async" alt="05 Office: WordCraft, DeckCraft and GridCraft vs Microsoft 365"></div>
+        <div class="slide"><img src="slide7.jpg" width="1072" height="1136" loading="lazy" decoding="async" alt="06 Anything: Craft Anything"></div>
+        <div class="slide"><img src="slide8.jpg" width="1072" height="1128" loading="lazy" decoding="async" alt="07 The bill: ArtCraft apps vs paid subscriptions"></div>
+        <div class="slide"><img src="slide9.jpg" width="1076" height="1108" loading="lazy" decoding="async" alt="08 How to get it: three steps"></div>
+      </div>
+      <button class="arrow n" type="button" onclick="mv(1)" aria-label="Next slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+    </div>
+    <div class="count" id="count" aria-live="polite">1 / 9</div>
+    <div class="dots" id="dots"></div>
+    <p class="credit">Slides by ArtCraft, not my work. <a class="link" href="https://getartcraft.com" target="_blank" rel="noopener">getartcraft.com ›</a></p>
+  </div>
+</section>
+
+<section id="prompts">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow reveal">Prompt library</span>
+      <h2 class="reveal">Structure before you build.</h2>
+      <p class="lead reveal">How to structure a Shopify build so AI doesn't break it midway. AI builds each screen beautifully in isolation; by screen 8, nothing lines up. The fix isn't a better prompt, it's structure set before the first screen.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><em>1</em><h4>Map the whole thing first</h4><p><b>Why</b> — Without the full map, AI optimises each screen locally and breaks the big picture.</p><p><b>How</b> — List every page and section up front so the AI knows where each screen fits.</p></div>
+      <div class="step reveal"><em>2</em><h4>Lock the design system early</h4><p><b>Why</b> — Defined late, every screen drifts in spacing, colour and components.</p><p><b>How</b> — Set colours, type, spacing and components once. Every screen inherits them.</p></div>
+      <div class="step reveal"><em>3</em><h4>Build section by section</h4><p><b>Why</b> — "Build the whole app" makes the AI juggle everything, and that's where it collapses.</p><p><b>How</b> — One screen at a time: build, review, then the next.</p></div>
+      <div class="step reveal"><em>4</em><h4>Decide the data shape up front</h4><p><b>Why</b> — If screens invent their own product or order, the data clashes when connected.</p><p><b>How</b> — Define product, collection and order early so every screen shares one data language.</p></div>
+    </div>
+    <div class="pbox reveal">
+      <span class="eyebrow">The Structure Prompt · Build inside a structure</span>
+      <div class="ptext" id="ptext">Before we build any screen, we're setting the structure for the whole store.
+1. First, map it: list every page and section, in order, and how they connect. Confirm this map before building anything.
+2. Lock a design system now — colours, type, spacing, and shared components. Every screen must inherit it exactly; never redefine styles per screen.
+3. Define the core data shapes up front — what a product, collection, and order look like — so every screen uses the same structure.
+4. Then build one screen at a time. After each screen, stop so I can review before the next. Every screen must reference the map, the design system, and the data shapes above — never build in isolation.
+Start with the map. Do not generate any screen until I confirm it.</div>
+      <button class="btn" id="cbtn" type="button" onclick="cp()" aria-live="polite">Copy prompt</button>
+    </div>
+    <p class="rule reveal"><b>The rule of thumb —</b> if the AI is building a screen without referencing the map, the system, and the data shapes, stop. That's where the screen-8 collapse begins.</p>
+  </div>
+</section>
+
+<section class="alt" id="skills">
+  <div class="wrap center">
+    <span class="eyebrow reveal">Skills</span>
+    <h2 class="reveal">Ready-made skills for Claude.</h2>
+    <p class="lead reveal">Download a skill, add it to Claude, and get a repeatable workflow for the work you do again and again.</p>
+    <div class="skillcard reveal">
+      <div class="ico" aria-hidden="true">▶</div>
+      <h3>3D Explainer Short</h3>
+      <p>Make a 9:16 vertical explainer short (2–3 min) with 3D-rendered scenes, kinetic headline captions, live HUD data overlays and a comment-for-notes call to action.</p>
+      <ul>
+        <li>Story structure from cold open to share-and-follow outro</li>
+        <li>Caption system with a fixed colour meaning for each accent word</li>
+        <li>Shot list, voiceover timing, ffmpeg export and QA checklist</li>
+      </ul>
+      <div class="tags"><span class="tag">9:16 · 720×1280</span><span class="tag">30 fps</span><span class="tag">Claude skill</span></div>
+      <div class="row">
+        <a class="btn" href="3d-explainer-short.skill" download>Download skill</a>
+        <small>Upload the .skill file in Claude's Skills settings, then ask for a short on any topic.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="center" id="contact">
+  <div class="wrap">
+    <span class="eyebrow reveal">Get in touch</span>
+    <h2 class="reveal">Have a website in mind?<br>Let's design it.</h2>
+    <p class="lead reveal">Tell me about your project and I'll get back to you — usually within a day.</p>
+    <a class="mail reveal" href="mailto:the.voidmoon11@gmail.com">the.voidmoon11@gmail.com</a>
+    <p class="soc reveal"><a class="link" href="https://instagram.com/brajsaa_23" target="_blank" rel="noopener">Follow on Instagram ›</a></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="flogo"><svg width="20" height="20" viewBox="0 0 64 64" aria-hidden="true"><rect class="lr" width="64" height="64" rx="16"/><path class="ls" d="M43 20H25V32H39V44H21" fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="21" cy="44" r="4.5" fill="#0a84ff"/></svg><span>© 2026 Sitecraft. All rights reserved.</span></span>
+  </div>
+</footer>
+
+<script>
+const car=document.getElementById('car'),dots=document.getElementById('dots'),count=document.getElementById('count'),N=car.children.length;
+for(let i=0;i<N;i++){const d=document.createElement('button');d.type='button';d.className='dot'+(i?'':' on');d.setAttribute('aria-label','Go to slide '+(i+1));d.onclick=()=>car.scrollTo({left:car.clientWidth*i,behavior:'smooth'});dots.appendChild(d)}
+function ui(){const i=Math.round(car.scrollLeft/car.clientWidth);count.textContent=(i+1)+' / '+N;[...dots.children].forEach((d,k)=>d.classList.toggle('on',k===i))}
+function mv(n){const i=Math.round(car.scrollLeft/car.clientWidth);car.scrollTo({left:car.clientWidth*Math.max(0,Math.min(N-1,i+n)),behavior:'smooth'})}
+car.addEventListener('scroll',()=>{clearTimeout(car._t);car._t=setTimeout(ui,60)});
+function cp(){navigator.clipboard.writeText(document.getElementById('ptext').innerText).then(()=>{const b=document.getElementById('cbtn');b.textContent='Copied ✓';setTimeout(()=>b.textContent='Copy prompt',1800)})}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(r=>io.observe(r));
+const root=document.documentElement,tb=document.getElementById('theme'),tc=document.getElementById('tc');
+function setTheme(t,save){root.dataset.theme=t;tc.content=t==='dark'?'#000000':'#ffffff';tb.setAttribute('aria-label',t==='dark'?'Switch to light mode':'Switch to dark mode');if(save){try{localStorage.setItem('theme',t)}catch(e){}}}
+setTheme(root.dataset.theme,false);
+tb.onclick=()=>setTheme(root.dataset.theme==='dark'?'light':'dark',true);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',e=>{let st=null;try{st=localStorage.getItem('theme')}catch(x){}if(!st)setTheme(e.matches?'dark':'light',false)});
+const nav=document.querySelector('nav'),bg=document.getElementById('burger');
+function menu(o){nav.classList.toggle('open',o);bg.setAttribute('aria-expanded',o);bg.setAttribute('aria-label',o?'Close menu':'Open menu')}
+bg.onclick=()=>menu(!nav.classList.contains('open'));
+document.querySelectorAll('.links a').forEach(a=>a.onclick=()=>menu(false));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')menu(false)});
+
+/* mentalist animation: swinging pocket watch over a hypnotic spiral */
+(()=>{
+const cv=document.getElementById('px'),ctx=cv.getContext('2d'),fr=cv.parentElement,R=Math.random;
+const SU=[['\u2660','#e8e8ed'],['\u2665','#ff453a'],['\u2666','#ff453a'],['\u2663','#e8e8ed']];
+let W,H,Rw,ps=[],trail=[],run=false,last=0,t=0,amp=.55,rot=0;
+function size(){const d=Math.min(devicePixelRatio||1,2);W=fr.clientWidth;H=fr.clientHeight;cv.width=W*d;cv.height=H*d;ctx.setTransform(d,0,0,d,0,0);Rw=Math.max(22,H*.085);
+ ps=Array.from({length:8},(_,i)=>({x:(i+.5)/8*W+(R()-.5)*30,y:R()*H,v:.12+R()*.2,s:SU[i%4],z:16+R()*14}))}
+function spiral(o){ctx.beginPath();const m=Math.hypot(W,H)/2,cx=W/2,cy=H*.55;for(let r=4;r<m;r+=3){const a=r*.1+rot+o,x=cx+Math.cos(a)*r,y=cy+Math.sin(a)*r;r===4?ctx.moveTo(x,y):ctx.lineTo(x,y)}ctx.stroke()}
+function draw(th){
+ ctx.fillStyle='#0b0b0f';ctx.fillRect(0,0,W,H);
+ ctx.strokeStyle='rgba(255,255,255,.075)';ctx.lineWidth=1.5;spiral(0);spiral(Math.PI);
+ ctx.textAlign='center';ps.forEach(q=>{ctx.font=q.z+'px serif';ctx.globalAlpha=.16+.12*Math.sin(t*.002+q.x);ctx.fillStyle=q.s[1];ctx.fillText(q.s[0],q.x,q.y)});ctx.globalAlpha=1;
+ const px=W/2,py=-6,L=H*.6,x=px+L*Math.sin(th),y=py+L*Math.cos(th);
+ trail.forEach((q,i)=>{ctx.globalAlpha=i/trail.length*.22;ctx.fillStyle='#d4af37';ctx.beginPath();ctx.arc(q[0],q[1],Rw*(.55+.45*i/trail.length),0,7);ctx.fill()});ctx.globalAlpha=1;
+ ctx.strokeStyle='#8e8e93';ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(px,py);ctx.lineTo(x,y);ctx.stroke();
+ ctx.save();ctx.translate(x,y);ctx.rotate(-th);
+ ctx.fillStyle='#b8942a';ctx.fillRect(-Rw*.13,-Rw*1.25,Rw*.26,Rw*.3);
+ ctx.shadowColor='rgba(212,175,55,.45)';ctx.shadowBlur=30;ctx.fillStyle='#d4af37';ctx.beginPath();ctx.arc(0,0,Rw,0,7);ctx.fill();ctx.shadowBlur=0;
+ ctx.fillStyle='#f6f1e4';ctx.beginPath();ctx.arc(0,0,Rw*.84,0,7);ctx.fill();
+ ctx.strokeStyle='#3a3a3c';for(let i=0;i<12;i++){const a=i*Math.PI/6;ctx.lineWidth=i%3?1:2;ctx.beginPath();ctx.moveTo(Math.sin(a)*Rw*.66,-Math.cos(a)*Rw*.66);ctx.lineTo(Math.sin(a)*Rw*.76,-Math.cos(a)*Rw*.76);ctx.stroke()}
+ [[t*.00005,.45,2.5],[t*.0006,.66,1.6]].forEach(h=>{ctx.lineWidth=h[2];ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.sin(h[0])*Rw*h[1],-Math.cos(h[0])*Rw*h[1]);ctx.stroke()});
+ const sa=t*.0025;ctx.strokeStyle='#ff453a';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.sin(sa)*Rw*.7,-Math.cos(sa)*Rw*.7);ctx.stroke();
+ ctx.fillStyle='#1d1d1f';ctx.beginPath();ctx.arc(0,0,2.5,0,7);ctx.fill();ctx.restore();
+ ctx.font='500 14px Inter,sans-serif';ctx.fillStyle='rgba(255,255,255,'+(.3+.25*Math.sin(t*.002))+')';ctx.fillText('Watch closely.',W/2,H-20);
+ return [x,y]}
+function frame(n){
+ if(!run)return;const dt=Math.min(n-last||16,40);last=n;t+=dt;rot+=dt*.00022;
+ amp+=(.55-amp)*.004*dt/16;
+ for(const q of ps){q.y-=q.v*dt/16;if(q.y<-30){q.y=H+30;q.x=R()*W}}
+ const th=amp*Math.cos(t*.0016),pos=draw(th);trail.push(pos);if(trail.length>16)trail.shift();
+ requestAnimationFrame(frame)}
+cv.addEventListener('pointerdown',()=>{amp=.95});
+size();addEventListener('resize',()=>{size();if(!run)draw(.35)});
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){draw(.35)}
+else new IntersectionObserver(es=>{const v=es[0].isIntersecting;if(v&&!run){run=true;last=performance.now();requestAnimationFrame(frame)}else if(!v)run=false}).observe(fr);
+})();
+</script>
+</body>
+</html>
